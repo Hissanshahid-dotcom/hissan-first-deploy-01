@@ -1,0 +1,308 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+ *{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(assets/images/PK-en-20251201-TRIFECTA-perspective_66997086-bd46-4164-ae18-8039bc04d843_large.jpg);
+    height: 90vh;
+    background-size: max(2100px,100vw);
+    background-repeat: no-repeat;
+    background-position: center center;
+     position: relative;
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.67;
+    position: absolute;
+    top: 0;
+    
+}
+nav{
+    max-width: 60vw;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    position: relative;
+    z-index: 10;
+    width: 120px;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.role{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 118px);
+    flex-direction: column;
+    padding: 29px;
+   
+   
+}
+.role{
+  
+  /* font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xxx-large; */
+ font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  gap: 20px;
+
+}
+.role> :first-child{
+    font-size: 70px;  
+    text-align: center;  
+}
+.role> :nth-child(2){
+    font-size: 67px;
+    text-align: center;
+}
+.role> :nth-child(3){
+    font-size:20px;
+    text-align: center;
+}
+.role> :nth-child(4){
+    font-size:20px;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+}
+.line{
+    background-color: rgb(58, 57, 57);
+    height: 5px;
+}
+.btn{
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(229, 9, 20);
+    padding: 15px 45px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.btn-1{
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bolder;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+btn-1 :hover{
+    color: rgb(91, 2, 2);
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    
+ padding: 13px 55px ;
+ background-color: rgba(0, 0, 0, 0.505);
+ color: white;
+ border-radius:2px;
+  border: 2px solid rgb(47, 46, 46);
+
+}
+input::placeholder{
+    color: rgb(75, 68, 68);
+}
+.phla-1{
+    color: white;
+      display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 90vw;
+    text-align: center;
+}
+.phla img{
+    width: 35vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 12vw;
+    z-index: 10;
+}
+.phlay img{
+     width: 35vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phla video{
+    width: 30vw;
+    position: relative;
+    bottom: 10vw;
+    right: 0px;
+}
+.sec:first-child{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sec2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec2 span{
+    font-size:xx-large;
+    font-weight:bolder;
+}
+.faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.faqs{
+    font-size: 24px;
+    background-color:#2d2d2d;
+    max-width: 60vw;
+    display: flex;
+    margin:0px auto;
+    padding: 24px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.faqs:hover{
+    background-color:#414141;
+    transition: all 1s ease-out;
+}
+.faq h2{
+    font-size: 35px;
+    padding: 25px;
+}
+.foot h3{
+    color: white;
+}
+.faq,h3,a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-self: end;
+    
+}
+li{
+    padding: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer-red {
+    justify-content: center;
+    align-items: center;
+       display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-self: center;
+    position:relative;
+    bottom: 10vw;
+    cursor: pointer;
+}
+.footer-blue{
+    justify-content: center;
+    align-items: center;
+       display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position:relative;
+    bottom: 19vw;
+    right: 32vw;
+    cursor: pointer;
+}
+.netflix-footer {
+  background: #000;
+  color: #757575;
+  padding: 40px 12%;
+  font-family: Arial, sans-serif;
+}
+
+.netflix-footer a {
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.netflix-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.footer-links {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+}
+
+.footer-bottom select {
+  background: #000;
+  color: #757575;
+  border: 1px solid #333;
+  padding: 8px 12px;
+  margin-bottom: 20px;
+}
+
+.region {
+  font-size: 14px;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .footer-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+}
